@@ -1,0 +1,24 @@
+ kotlinc -d main.jar main.kt && kotlin -classpath main.jar MainKt
+main.kt:1:10: warning: parameter 'args' is never used
+fun main(args: Array<String>) {
+         ^
+main.kt:12:7: warning: variable 'status' is assigned but never accessed
+  var status: String
+      ^
+main.kt:15:3: warning: the value '"Apenas chamadas urgentes"' assigned to 'var status: String defined in main' is never used
+  status = "Apenas chamadas urgentes"
+  ^
+Olá Mundo!
+Esse é meu primeiro código em Kotlin.
+É uma experiência interessante.
+Nome: thiago rodrigues das chagas
+Nome: thiago
+Idade: 17
+
+10
+10.5
+A
+true
+Um texto genérico
+ ^C
+ 
